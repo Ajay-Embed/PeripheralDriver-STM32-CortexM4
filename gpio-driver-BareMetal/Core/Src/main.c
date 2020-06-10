@@ -1,0 +1,35 @@
+#include "stm32f4xx.h"
+
+/*
+ * We are gonna blink LED connected on PA5
+ *
+ * 1. RCC->AHB1ENR register and set bit 0 to 1 to enable the clock for GPIOA
+ *
+ * We gotta do some config for GPIO periph
+ *
+ * 1. Set the mode as o/p because LED is connected to it.
+ * Write 01 to MDOER5, as it is used to set mode of PA5
+ *
+ * 2. Set the op data register bit for PA5
+ * ODR5 should be 1 for LED to turn ON
+ *
+ *
+ */
+
+#define GPIOA_EN 					(1<<0)
+#define GPIOA_MODER_5_OUTPUT		(1<<10)
+#define GPIO_ODR_5_SET				(1<<5)
+
+int main(void)
+{
+	RCC->AHB1ENR |= (GPIOA_EN);
+	GPIOA->MODER |= (GPIOA_MODER_5_OUTPUT);
+
+	while(1)
+	{
+
+	for(int i=0 ; i<900000 ; ++i){}  	//A simple delay
+	GPIOA->ODR   ^= (GPIO_ODR_5_SET);  	//toggling
+
+	}
+}

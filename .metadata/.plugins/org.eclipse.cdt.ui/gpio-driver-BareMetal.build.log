@@ -1,0 +1,10 @@
+22:51:37 **** Incremental Build of configuration Debug for project gpio-driver-BareMetal ****
+make -j8 all 
+arm-none-eabi-size   gpio-driver-BareMetal.elf 
+   text	   data	    bss	    dec	    hex	filename
+    780	      8	   1568	   2356	    934	gpio-driver-BareMetal.elf
+Finished building: default.size.stdout
+ 
+
+22:51:38 Build Finished. 0 errors, 0 warnings. (took 377ms)
+

@@ -1,0 +1,10 @@
+01:30:13 **** Incremental Build of configuration Debug for project Interrupt-Input-button ****
+make -j8 all 
+arm-none-eabi-size   Interrupt-Input-button.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11344	     20	   1636	  13000	   32c8	Interrupt-Input-button.elf
+Finished building: default.size.stdout
+ 
+
+01:30:14 Build Finished. 0 errors, 0 warnings. (took 1s.59ms)
+

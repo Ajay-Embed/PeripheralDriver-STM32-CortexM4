@@ -1,0 +1,15 @@
+//org.eclipse.ui.commands/state/com.st.stm32cube.ide.mcu.buildanalyzer.showstate/org.eclipse.ui.commands.radioState=human
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+CONTENT_ASSIST_BACKGROUND_COLOR=209,240,216
+CONTENT_ASSIST_FOREGROUND_COLOR=8,23,11
+UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
+content_assist_parameters_background=209,240,216
+content_assist_parameters_foreground=8,23,11
+content_assist_proposals_background=209,240,216
+content_assist_proposals_foreground=8,23,11
+eclipse.preferences.version=1
+org.eclipse.egit.ui.DiffAddBackgroundColor=219,255,148
+org.eclipse.egit.ui.DiffHeadlineBackgroundColor=240,250,242
+org.eclipse.egit.ui.DiffHunkBackgroundColor=240,250,242
+org.eclipse.egit.ui.DiffRemoveBackgroundColor=255,172,172
+overriddenByCSS=,CONTENT_ASSIST_BACKGROUND_COLOR,CONTENT_ASSIST_FOREGROUND_COLOR,content_assist_parameters_background,content_assist_parameters_foreground,content_assist_proposals_background,content_assist_proposals_foreground,org.eclipse.egit.ui.DiffAddBackgroundColor,org.eclipse.egit.ui.DiffHeadlineBackgroundColor,org.eclipse.egit.ui.DiffHunkBackgroundColor,org.eclipse.egit.ui.DiffRemoveBackgroundColor,
